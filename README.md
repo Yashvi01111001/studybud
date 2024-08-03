@@ -12,6 +12,6 @@ Follow these steps to run the project on your machine:
 4. Install Django REST Framework: pip install djangorestframework
 5. Install django-cors-headers: pip install django-cors-headers
 6. Install Pillow to use ImageField: python -m pip install Pillow
-]
+...]
 
 7. Finally, run the server: py manage.py runser
