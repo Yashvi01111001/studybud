@@ -1,0 +1,16 @@
+<!-- This is going to be a dynamic templat
+as we will use it to delete a number of things in this project -->
+
+
+{% extends 'main.html' %}
+
+{% block content %}
+
+<form method="POST" action="">
+    {% csrf_token %} {% comment %} need to have this token as we are sending a POST request {% endcomment %}
+    <p>Are you sure you want to delete "{{obj}}"?</p>
+    <a href="{{request.META.HTTP_REFERER}}">Go Back</a>
+    <input type="submit" value="Confirm" />
+</form>
+
+{% endblock content %}
