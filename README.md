@@ -1,5 +1,5 @@
 # StudyBudApp
- This Django app allows students to post discussion topics and they can also comment on others discussion topics too!
+ This Django app allows students to post discussion topics and also comment on others discussion topics too!
 
 Follow these steps to run the project on your machine:
 
